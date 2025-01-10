@@ -1,3 +1,6 @@
+from utils import init_page
+
+init_page()
 import streamlit as st
 
 st.title("這是標題")

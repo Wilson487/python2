@@ -1,3 +1,6 @@
+from utils import init_page
+
+init_page()
 import streamlit as st
 import os
 
@@ -105,13 +108,13 @@ if st.button("功德加1", key="ans2"):
 st.write(f"ans={st.session_state.ans}")
 
 
-image_folder = "image"
-image_files = os.listdir(image_folder)
-st.write(image_files)
+# image_folder = "image"
+# image_files = os.listdir(image_folder)
+# st.write(image_files)
 
-st.title("圖片")
-st.image("image/0.png", width=300)
+# st.title("圖片")
+# st.image("image/0.png", width=300)
 
 
-fruit = st.selectbox("請選擇圖片", ["仕奇", "多拉B夢"])
-st.write(f"你選擇的圖片是:{fruit}")
+# fruit = st.selectbox("請選擇圖片", ["仕奇", "多拉B夢"])
+# st.write(f"你選擇的圖片是:{fruit}")

@@ -1,3 +1,5 @@
+from utils import init_page
 import streamlit as st
 
-st.title("你是傻逼，和仕奇一模一樣")
+init_page()
+st.title("這是標題")
